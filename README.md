@@ -1,2 +1,119 @@
 # israel-almeida-3000.github.com
-Site campanha
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Israel Almeida - Candidato a Vereador</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tio Plim</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proposals">Propostas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Israel Almeida - Candidato a Vereador</h1>
+            <p class="lead">Por uma Belém mais justa e transparente</p>
+        </div>
+    </header>
+
+    <!-- Sobre Mim Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Sobre Mim</h2>
+            <p>Meu nome é Israel Almeida, mais conhecido como Tio Plim. Sou candidato a vereador em Belém do Pará pelo partido Novo. Com anos de dedicação à comunidade, estou comprometido em promover mudanças positivas em nossa cidade, focando em transparência, educação e desenvolvimento sustentável.</p>
+        </div>
+    </section>
+
+    <!-- Propostas Section -->
+    <section id="proposals" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Propostas</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Transparência</h5>
+                            <p class="card-text">Promover transparência nas ações do governo municipal, garantindo que todos os cidadãos tenham acesso às informações públicas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Educação</h5>
+                            <p class="card-text">Investir na educação básica e profissionalizante, criando oportunidades para os jovens de nossa cidade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Sustentabilidade</h5>
+                            <p class="card-text">Desenvolver políticas públicas voltadas para a sustentabilidade e a preservação do meio ambiente em Belém.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contato</h2>
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Israel Almeida - Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+          </html>
